@@ -1,14 +1,6 @@
 /*
- Navicat MySQL Data Transfer
-
- Source Server         : ti-elastic
- Source Server Version : 50520
- Source Host           : tourintel.cq50bxz277hj.us-east-1.rds.amazonaws.com
- Source Database       : swarm
-
- Target Server Version : 50520
- File Encoding         : utf-8
-
+ interact-api database template for mysql
+ jonathan romley for prophecy ventures llc
  Date: 08/29/2012 11:18:36 AM
 */
 
