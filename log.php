@@ -33,17 +33,12 @@ $values['action_id']=$db->select_single_value("interact_action","action_id","whe
 /* identify active content */
 $values['content_id']=$db->select_single_value("interact_stream","content_id","order by stream_id desc limit 1");
 
-//print_r($values);
-
 /* insert record in to db */
 $db->insert("interact_activity_log",$values);
-
 
 /* okay response*/
 $response_arr=array('stat'=>'ok','code'=>'200');
 
-
 /* output */
 echo json_encode($response_arr);
-
 ?>
