@@ -23,9 +23,7 @@ if(empty($uid)){
 /* fail response*/
 $response_arr=array('stat'=>'fail','code'=>'4','message'=>'empty request');
 /* output */
-//echo "jsonSwarmApi(";
 echo json_encode($response_arr);
-//echo ")";
 exit;
 }
 
