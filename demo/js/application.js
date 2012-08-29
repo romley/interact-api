@@ -1,3 +1,8 @@
+// app js
+// jonathan romley for prophecy ventures llc
+// last update: 29 August 2012
+
+
 // global vars for geolocation
 var myLat;
 var myLong;
@@ -16,13 +21,13 @@ $(window).ready(function(){
      
     // handle button tap events    	
 	$("#like").live("tap", function(event){
-	swarm('like');
+	log('like');
 	});
  	$("#share").live("tap", function(event){
-	swarm('share');
+	log('share');
 	});
 	 $("#comment").live("tap", function(event){
-	swarm('comment');
+	log('comment');
 	});
         });  
 
